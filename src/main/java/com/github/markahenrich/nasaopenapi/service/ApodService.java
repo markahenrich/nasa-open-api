@@ -1,6 +1,6 @@
 package com.github.markahenrich.nasaopenapi.service;
 
-import com.github.markahenrich.nasaopenapi.model.Apod;
+import com.github.markahenrich.nasaopenapi.model.apod.Apod;
 import org.springframework.stereotype.Service;
 
 @Service

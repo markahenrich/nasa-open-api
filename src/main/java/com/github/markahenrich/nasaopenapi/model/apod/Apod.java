@@ -1,4 +1,4 @@
-package com.github.markahenrich.nasaopenapi.model;
+package com.github.markahenrich.nasaopenapi.model.apod;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

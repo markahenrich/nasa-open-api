@@ -1,6 +1,6 @@
 package com.github.markahenrich.nasaopenapi.controller;
 
-import com.github.markahenrich.nasaopenapi.model.Apod;
+import com.github.markahenrich.nasaopenapi.model.apod.Apod;
 import com.github.markahenrich.nasaopenapi.service.ApodService;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;

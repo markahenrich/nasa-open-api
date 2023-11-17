@@ -7,18 +7,16 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.reactive.function.client.WebClient;
 
 @Configuration
-public class ApodApiClientConfiguration {
-    @Value("${nasa.apod.url}")
+public class ImagesApiClientConfiguraton {
+    @Value("${nasa.images.url}")
     private String baseUrl;
-    @Value("${API_KEY}")
-    private String apiKey;
 
     @Bean
-    @Qualifier("apod")
-    public WebClient getApodWebclient() {
+    @Qualifier("images")
+    public WebClient getImagesWebclient() {
         return WebClient
                 .builder()
-                .baseUrl(baseUrl + "?api_key="+ apiKey)
+                .baseUrl(baseUrl)
                 .build();
     }
 }
