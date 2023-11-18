@@ -9,7 +9,7 @@ public class ImageData {
     String center;
     String title;
     String nasa_id;
-    String data_created;
+    String date_created;
     List<String> keywords;
     String media_type;
     String description_508;
